@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Installer outputs
+Output/
+*_Setup.exe
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Game and launcher local data (중요: 개인 계정 토큰 및 게임 파일 제외)
+.nlauncher/
+skin_cache/
+launcher_settings.json
+launcher_profiles.json
+*.log
+
+# Large installer / archive files (용량이 크므로 릴리스 탭에서 별도 배포 권장)
+modpack.zip
+neoforge-*-installer.jar
+*.jar
+
+# IDE & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
